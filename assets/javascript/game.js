@@ -19,6 +19,8 @@ window.onload = function () {
   var space;  
   var showLives = document.getElementById("mylives");
 
+
+
     function buttons () {
     myButtons = document.getElementById('buttons');
     letters = document.createElement('ul');
@@ -59,10 +61,12 @@ window.onload = function () {
     showLives.innerHTML = "You have " + lives + " lives";
     if (lives < 1) {
       showLives.innerHTML = "Diver drowns!";
+       document.getElementById('bubble').play();
     }
     for (var i = 0; i < guesses.length; i++) {
       if (counter + space === guesses.length) {
         showLives.innerHTML = "Diver lives!";
+       document.getElementById('woohoo').play();
       }
     }
   }

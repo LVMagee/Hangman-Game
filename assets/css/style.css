@@ -41,14 +41,14 @@ h2 {
     }
 
 #my-word {
-	text-align: center;
+	clear: left;
   margin: 0;
   display: block;
   padding: 0;
 }
 
 #my-word li {
-  /*position: relative;*/
+  position: relative;
   list-style: none;
   margin: 0;
   display: inline-block;
@@ -82,8 +82,6 @@ button:hover{
       border: solid 1px white;
       color:black;
     }
-
-
 
 
 @media (max-width: 767px) {
