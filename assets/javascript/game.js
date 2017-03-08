@@ -6,8 +6,8 @@ window.onload = function () {
 
  var oceanWords = ["wall", "coral", "fish", "shark", "grouper", "sponge", "nudi", "trigger",
     "tiger", "reef", "turtle", "ocean", "bubble", "barrel", "nurse", "mask", "fins", "tank",
-    "vest", "jelly", "float", "clam", "shrimp", "crab", "whale", "dolpin", "oxygen", "scuba"
-    ];
+    "vest", "jelly", "float", "clam", "shrimp", "crab", "whale", "dolpin", "oxygen", "scuba", 
+    "barrel", "waves"];
 
 
   var buttons;      
