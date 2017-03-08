@@ -60,7 +60,7 @@ window.onload = function () {
      function comments () {
     showLives.innerHTML = "You have " + lives + " lives";
     if (lives < 1) {
-      showLives.innerHTML = "Diver down!";
+      showLives.innerHTML = "Diver down to Davy Jones!";
        document.getElementById('bubble').play();
     }
     for (var i = 0; i < guesses.length; i++) {
