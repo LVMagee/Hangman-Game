@@ -5,11 +5,13 @@ body {
 
 
 h1 {
+	font-size: 42px;
 	text-align: center;
 	padding: 20px;
 }
 
 h2 {
+	font-size: 32px;
 	text-align: center;
 	padding: 20px;
 }
@@ -22,6 +24,8 @@ h2 {
 }
 
 #alphabet li {
+	text-align: center;
+	font-size: 24px;
   float:left;
   margin: 0 10px 10px 0;
   list-style: none;
@@ -41,6 +45,7 @@ h2 {
     }
 
 #my-word {
+	text-align: center;
 	clear: left;
   margin: 0;
   display: block;
@@ -53,7 +58,7 @@ h2 {
   margin: 0;
   display: inline-block;
   /*padding: 0 10px;*/
-  font-size: 36px;
+  font-size: 40px;
 }
 
 #mylives{
@@ -64,8 +69,9 @@ h2 {
 }
 
 button{
+	display: block;
 	font-family: 'Pangolin', cursive;
-	position: relative;
+	/*position: relative;*/
   background: #6A9164;
   color: black;
   border: solid 1px black;
@@ -73,8 +79,8 @@ button{
   cursor:pointer;
   font-size:24px;
   padding:20px;
-  width:180px;
-  margin: 10px;
+  width:15%;
+  margin: 0 auto;
   outline: none;
   }
 button:hover{

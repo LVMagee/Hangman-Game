@@ -60,12 +60,12 @@ window.onload = function () {
      function comments () {
     showLives.innerHTML = "You have " + lives + " lives";
     if (lives < 1) {
-      showLives.innerHTML = "Diver drowns!";
+      showLives.innerHTML = "Diver down!";
        document.getElementById('bubble').play();
     }
     for (var i = 0; i < guesses.length; i++) {
       if (counter + space === guesses.length) {
-        showLives.innerHTML = "Diver lives!";
+        showLives.innerHTML = "Diver lives to dive again!";
        document.getElementById('woohoo').play();
       }
     }
