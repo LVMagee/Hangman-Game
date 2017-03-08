@@ -1,0 +1,99 @@
+body {
+	background-image: url("water.jpg");
+	font-family: 'Pangolin', cursive, Arial, Helvetica;
+}
+
+
+h1 {
+	text-align: center;
+	padding: 20px;
+}
+
+h2 {
+	text-align: center;
+	padding: 20px;
+}
+
+
+#alphabet {
+  margin:15px auto;
+  padding:30px;
+  max-width:630px;
+}
+
+#alphabet li {
+  float:left;
+  margin: 0 10px 10px 0;
+  list-style: none;
+  width:35px;
+  height:30px;
+  padding-top:10px;
+  background: #006d93;
+  color: black;
+  cursor:pointer;
+  border: solid 1px black;
+  } 
+
+#alphabet li:hover{
+      background: #90C3D4;
+      border: solid 1px #1871BA;
+      color: white;
+    }
+
+#my-word {
+	text-align: center;
+  margin: 0;
+  display: block;
+  padding: 0;
+}
+
+#my-word li {
+  /*position: relative;*/
+  list-style: none;
+  margin: 0;
+  display: inline-block;
+  /*padding: 0 10px;*/
+  font-size: 36px;
+}
+
+#mylives{
+	padding: 40px;
+  font-size:28px;
+  text-align:center;
+  display:block;
+}
+
+button{
+	font-family: 'Pangolin', cursive;
+	position: relative;
+  background: #6A9164;
+  color: black;
+  border: solid 1px black;
+  text-decoration:none;
+  cursor:pointer;
+  font-size:24px;
+  padding:20px;
+  width:180px;
+  margin: 10px;
+  outline: none;
+  }
+button:hover{
+      background: #158CED;
+      border: solid 1px white;
+      color:black;
+    }
+
+
+
+
+@media (max-width: 767px) {
+  #alphabet {
+  padding:0 0 0 15px;
+}
+  }
+
+  @media (max-width: 480px) {
+  #alphabet {
+  padding:0 0 0 25px;
+}
+  }
