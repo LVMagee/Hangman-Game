@@ -92,10 +92,11 @@ window.onload = function () {
     }
   }
 
+
   function play() {
     word = oceanWords[Math.floor(Math.random() * oceanWords.length)];
-    word = word.replace("-");
-    console.log(word);
+    word = word.replace(/\s/g, "-");
+    // console.log(word);
     buttons();
 
     guesses = [ ];
@@ -110,10 +111,12 @@ window.onload = function () {
 
   
  document.getElementById('reset').onclick = function() {
-  location.reload();
+  correct.parentNode.removeChild(correct);
+  letters.parentNode.removeChild(letters);
+  
+  // location.reload();
+
     play();
-   
-   
   }
 }
 

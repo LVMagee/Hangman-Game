@@ -44,6 +44,11 @@ h2 {
       color: white;
     }
 
+.active {  
+      opacity: 0.4;
+    }
+        
+
 #my-word {
 	text-align: center;
 	clear: left;
@@ -71,7 +76,6 @@ h2 {
 button{
 	display: block;
 	font-family: 'Pangolin', cursive;
-	/*position: relative;*/
   background: #6A9164;
   color: black;
   border: solid 1px black;
@@ -87,7 +91,7 @@ button:hover{
       background: #158CED;
       border: solid 1px white;
       color:black;
-    }
+    }  
 
 
 @media (max-width: 767px) {
