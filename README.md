@@ -1,8 +1,13 @@
-# Hangman-Game
 
-This is Diver Down, a hangman style game with ocean and diver related words.
+  # Diver Down
+  Hangman style game built with Html, CSS, and JavaScript.
 
-It was built with Html5, CSS3, and JavaScript.
-Javascript homework
+  ## Play Game
+  https://lvmagee.github.io/Hangman-Game/
 
-https://lvmagee.github.io/Hangman-Game/
+ 
+  ## History
+  UNCC Bootcamp JavaScript Homework
+
+
+  
